@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e360a740-7278-4b63-9ce1-0332f6a18d54" name="Default" comment="" />
+    <list default="true" id="e360a740-7278-4b63-9ce1-0332f6a18d54" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-extraction/feature_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature-extraction/feature_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-extraction/test_features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/feature-extraction/test_features.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-extraction/test_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/feature-extraction/test_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-extraction/train_features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/feature-extraction/train_features.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-extraction/train_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/feature-extraction/train_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/model.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +18,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spam_mail$model.coverage" NAME="model Coverage Results" MODIFIED="1526582070823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/training" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="225">
+              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -23,11 +35,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="feature_extraction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature-extraction/feature_extraction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/feature-extraction/feature_extraction.py" />
         <option value="$PROJECT_DIR$/training/model.py" />
       </list>
     </option>
@@ -47,6 +75,7 @@
     <option name="width" value="1177" />
     <option name="height" value="636" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -59,6 +88,17 @@
             <path>
               <item name="spam_mail" type="b2602c69:ProjectViewProjectNode" />
               <item name="spam_mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spam_mail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spam_mail" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spam_mail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spam_mail" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="ex6DataPrepared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -85,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.model">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="spam_mail" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +140,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="feature_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spam_mail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/feature-extraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature-extraction/feature_extraction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,9 +183,14 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.feature_extraction" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.model" />
+        <item itemvalue="Python.feature_extraction" />
       </list>
     </recent_temporary>
   </component>
@@ -148,24 +212,24 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="279" height="543" id="Documentation" side_tool="true" weight="0.261959" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32913387" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913387" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="279" height="543" id="Documentation" order="0" side_tool="true" weight="0.261959" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32913387" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3301738" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22323462" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -178,10 +242,69 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/preprocessing-data/pocessed-data/train/ham2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing-data/pocessed-data/train/ham1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-extraction/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret column="2263" lean-forward="true" selection-start-column="2263" selection-end-column="2263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing-data/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/ex6DataPrepared/train_features.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-extraction/make_dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing-data/pocessed-data/train/ham0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-extraction/train_features.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/ex6DataPrepared/train-features.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-extraction/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/training/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
