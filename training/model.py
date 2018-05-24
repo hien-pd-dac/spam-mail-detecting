@@ -12,7 +12,7 @@ train_label_fn = 'train_labels.txt'
 test_label_fn = 'test_labels.txt'
 
 N_WORDS = 3000
-K_NEIGHBORS = 13
+K_NEIGHBORS = 10
 
 
 def read_data(data_fn, label_fn):
