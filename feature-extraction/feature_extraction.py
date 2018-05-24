@@ -39,5 +39,5 @@ def extract_feature(dataset):
     label_file.close()
 
 
-extract_feature('train')
-extract_feature('test')
+extract_feature('data')
+# extract_feature('test')

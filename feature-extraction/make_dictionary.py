@@ -6,7 +6,7 @@ import os
 
 def make_dictionary():
     all_words = []
-    data_path = join(dirname(dirname(os.path.realpath(__file__))), 'preprocessing-data/pocessed-data/train')
+    data_path = join(dirname(dirname(os.path.realpath(__file__))), 'preprocessing-data/pocessed-data')
     file_names = listdir(data_path)
     for file_name in file_names:
         file = open(join(data_path, file_name), 'r')

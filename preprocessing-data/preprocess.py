@@ -49,5 +49,5 @@ def process(read_path, write_path):
         write_file.close()
 
 
-process('raw-data/train', 'pocessed-data/train')
-process('raw-data/test', 'pocessed-data/test')
+process('raw-data', 'pocessed-data')
+# process('raw-data/test', 'pocessed-data/test')
