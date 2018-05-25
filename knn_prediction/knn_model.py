@@ -1,5 +1,6 @@
 from __future__ import print_function
 import time
+import os
 from sklearn import neighbors
 from sklearn.model_selection import train_test_split
 
@@ -7,13 +8,11 @@ from sklearn.metrics import accuracy_score  # for evaluating results
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 
-# data path and file name
-path = "ex6DataPrepared/"
+data_feature_fn = "../knn_feature-extraction/data_features.txt"
 
-data_feature_fn = "../../feature-extraction/data_features.txt"
+data_label_fn = "../knn_feature-extraction/data_labels.txt"
 
-data_label_fn = "../../feature-extraction/data_labels.txt"
-
+path = os.getcwd() + "/"
 
 N_WORDS = 3000
 K_NEIGHBORS = 10

@@ -13,7 +13,7 @@ def extract_feature(dataset):
 
     feature_file = open(dataset + '_features.txt', 'w')
     label_file = open(dataset + '_labels.txt', 'w')
-    data_path = join(dirname(dirname(os.path.realpath(__file__))), 'preprocessing-data/pocessed-data/' + dataset)
+    data_path = os.getcwd() + '/../preprocessing-data/processed-data/'
 
     file_names = listdir(data_path)
     stt = 0
@@ -40,4 +40,4 @@ def extract_feature(dataset):
 
 
 extract_feature('data')
-# extract_feature('test')
+
